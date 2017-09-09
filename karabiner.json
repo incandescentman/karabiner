@@ -979,7 +979,7 @@
             "name": "Cooler Master",
             "selected": true,
             "simple_modifications": {
-                "caps_lock": "right_control",
+                "caps_lock": "left_control",
                 "left_command": "left_option",
                 "left_option": "left_command"
             },
