@@ -1,4 +1,4 @@
- {
+{
     "global": {
         "check_for_updates_on_startup": true,
         "show_in_menu_bar": true,
@@ -263,13 +263,8 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-
                             {
-                                    "conditions": [
+                                "conditions": [
                                     {
                                         "bundle_identifiers": [
                                             "^org\\.gnu\\.Emacs$",
@@ -309,7 +304,6 @@
                                         "type": "frontmost_application_unless"
                                     }
                                 ],
-                            
                                 "from": {
                                     "key_code": "g",
                                     "modifiers": {
@@ -328,11 +322,6 @@
                                 ],
                                 "type": "basic"
                             },
-
-
-
-
-
                             {
                                 "conditions": [
                                     {
@@ -753,7 +742,6 @@
                             },
                             {
                                 "conditions": [
-
                                     {
                                         "bundle_identifiers": [
                                             "^org\\.gnu\\.Emacs$",
@@ -969,7 +957,10 @@
                     "simple_modifications": {
                         "delete_forward": "mute",
                         "escape": "grave_accent_and_tilde",
-                        "insert": "escape"
+                        "f10": "mute",
+                        "f11": "volume_decrement",
+                        "f12": "volume_increment",
+                        "insert": "f12"
                     }
                 }
             ],
