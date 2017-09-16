@@ -902,7 +902,7 @@
                         "product_id": 628,
                         "vendor_id": 1452
                     },
-                    "ignore": false,
+                    "ignore": true,
                     "simple_modifications": []
                 },
                 {
