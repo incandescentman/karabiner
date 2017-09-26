@@ -982,7 +982,7 @@
                                 "key_code": "insert"
                             },
                             "to": {
-                                "key_code": "escape"
+                                "pointing_button": "button1"
                             }
                         },
                         {
