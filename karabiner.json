@@ -942,7 +942,7 @@
                                 "key_code": "delete_forward"
                             },
                             "to": {
-                                "key_code": "mute"
+                                "key_code": "escape"
                             }
                         },
                         {
