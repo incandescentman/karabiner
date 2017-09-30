@@ -906,6 +906,30 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "f5"
+                            },
+                            "to": {
+                                "consumer_key_code": "display_brightness_decrement"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "f6"
+                            },
+                            "to": {
+                                "consumer_key_code": "display_brightness_increment"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "f7"
+                            },
+                            "to": {
+                                "consumer_key_code": "rewind"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "f8"
                             },
                             "to": {
@@ -942,30 +966,6 @@
                             },
                             "to": {
                                 "consumer_key_code": "volume_increment"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "f7"
-                            },
-                            "to": {
-                                "consumer_key_code": "rewind"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "f6"
-                            },
-                            "to": {
-                                "consumer_key_code": "display_brightness_increment"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "f5"
-                            },
-                            "to": {
-                                "consumer_key_code": "display_brightness_decrement"
                             }
                         }
                     ]
@@ -1112,6 +1112,35 @@
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 273,
+                        "vendor_id": 2131
+                    },
+                    "ignore": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 312,
                         "vendor_id": 2131
                     },
                     "ignore": false,
