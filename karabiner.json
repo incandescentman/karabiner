@@ -1238,7 +1238,7 @@
                                 "key_code": "keypad_3"
                             },
                             "to": {
-                                "pointing_button": "page_down"
+                "key_code":"page_down"
                             }
                        },
                         {
