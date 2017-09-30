@@ -991,10 +991,18 @@
                         },
                         {
                             "from": {
-                                "key_code": "end"
+                                "key_code": "home"
                             },
                             "to": {
                                 "pointing_button": "button1"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "end"
+                            },
+                            "to": {
+                                "pointing_button": "button2"
                             }
                         }
                     ]
