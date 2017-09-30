@@ -1160,6 +1160,14 @@
                             "to": {
                                 "key_code": "left_command"
                             }
+                        },
+                        {
+                            "from": {
+                                "key_code": "keypad_enter"
+                            },
+                            "to": {
+                                "pointing_button": "button1"
+                            }
                         }
                     ]
                 }
