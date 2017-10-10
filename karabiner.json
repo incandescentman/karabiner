@@ -991,18 +991,18 @@
                         },
                         {
                             "from": {
-                                "key_code": "home"
-                            },
-                            "to": {
-                                "pointing_button": "button1"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "end"
                             },
                             "to": {
                                 "pointing_button": "button2"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "home"
+                            },
+                            "to": {
+                                "pointing_button": "button1"
                             }
                         }
                     ]
@@ -1187,42 +1187,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_command"
+                                "key_code": "keypad_1"
                             },
                             "to": {
-                                "key_code": "left_option"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "left_option"
-                            },
-                            "to": {
-                                "key_code": "left_command"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_8"
-                            },
-                            "to": {
-                                "key_code": "up_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_4"
-                            },
-                            "to": {
-                                "key_code": "left_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_6"
-                            },
-                            "to": {
-                                "key_code": "right_arrow"
+                                "key_code": "end"
                             }
                         },
                         {
@@ -1235,20 +1203,20 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_1"
-                            },
-                            "to": {
-                                "key_code": "end"
-                            }
-                        },
-                       {
-                            "from": {
                                 "key_code": "keypad_3"
                             },
                             "to": {
-                "key_code":"page_down"
+                                "key_code": "page_down"
                             }
-                       },
+                        },
+                        {
+                            "from": {
+                                "key_code": "keypad_4"
+                            },
+                            "to": {
+                                "key_code": "left_arrow"
+                            }
+                        },
                         {
                             "from": {
                                 "key_code": "keypad_5"
@@ -1259,10 +1227,42 @@
                         },
                         {
                             "from": {
+                                "key_code": "keypad_6"
+                            },
+                            "to": {
+                                "key_code": "right_arrow"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "keypad_8"
+                            },
+                            "to": {
+                                "key_code": "up_arrow"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "keypad_9"
                             },
                             "to": {
                                 "key_code": "page_up"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "left_command"
                             }
                         }
                     ]
