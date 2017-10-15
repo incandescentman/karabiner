@@ -1266,6 +1266,47 @@
                             }
                         }
                     ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 21025,
+                        "vendor_id": 1155
+                    },
+                    "ignore": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 21025,
+                        "vendor_id": 1155
+                    },
+                    "ignore": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        }
+                    ]
                 }
             ],
             "fn_function_keys": [
@@ -1375,6 +1416,22 @@
                     },
                     "to": {
                         "key_code": "left_control"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "insert"
+                    },
+                    "to": {
+                                "pointing_button": "button1"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "delete_forward"
+                    },
+                    "to": {
+                                "pointing_button": "button2"
                     }
                 }
             ],
