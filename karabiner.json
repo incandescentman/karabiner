@@ -1420,18 +1420,18 @@
                 },
                 {
                     "from": {
-                        "key_code": "insert"
+                        "key_code": "scroll_lock"
                     },
                     "to": {
-                                "pointing_button": "button1"
+                 "pointing_button": "button1"
                     }
                 },
                 {
                     "from": {
-                        "key_code": "delete_forward"
+                        "key_code": "pause"
                     },
                     "to": {
-                                "pointing_button": "button2"
+                "pointing_button": "button2"
                     }
                 }
             ],
