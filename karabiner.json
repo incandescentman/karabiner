@@ -991,21 +991,20 @@
                         },
                         {
                             "from": {
-                                "key_code": "home"
+				"key_code": "end"
                             },
                             "to": {
-                                "pointing_button": "button1"
+				"pointing_button": "button2"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "end"
+				"key_code": "home"
                             },
                             "to": {
-                                "key_code": "fn"
+				"pointing_button": "button1"
                             }
-                        },
-
+			}
                     ]
                 },
                 {
