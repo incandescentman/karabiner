@@ -991,20 +991,21 @@
                         },
                         {
                             "from": {
-                                "key_code": "end"
-                            },
-                            "to": {
-                                "pointing_button": "button2"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "home"
                             },
                             "to": {
                                 "pointing_button": "button1"
                             }
-                        }
+                        },
+                        {
+                            "from": {
+                                "key_code": "end"
+                            },
+                            "to": {
+                                "key_code": "fn"
+                            }
+                        },
+
                     ]
                 },
                 {
@@ -1420,18 +1421,18 @@
                 },
                 {
                     "from": {
-                        "key_code": "scroll_lock"
+                        "key_code": "pause"
                     },
                     "to": {
-                 "pointing_button": "button1"
+                        "pointing_button": "button2"
                     }
                 },
                 {
                     "from": {
-                        "key_code": "pause"
+                        "key_code": "scroll_lock"
                     },
                     "to": {
-                "pointing_button": "button2"
+                        "pointing_button": "button1"
                     }
                 }
             ],
