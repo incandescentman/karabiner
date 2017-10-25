@@ -994,7 +994,7 @@
 				"key_code": "end"
                             },
                             "to": {
-				"pointing_button": "button2"
+				"pointing_button": "button1"
                             }
                         },
                         {
