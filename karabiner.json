@@ -994,7 +994,7 @@
                                 "key_code": "end"
                             },
                             "to": {
-                                "pointing_button": "return_or_enter"
+                                "key_code": "return_or_enter"
                             }
                         },
                         {
@@ -1002,7 +1002,7 @@
                                 "key_code": "home"
                             },
                             "to": {
-                                "key_code": "button1"
+                                "pointing_button": "button1"
                             }
                         }
                     ]
