@@ -446,7 +446,7 @@
                                             "^com\\.vmware\\.view$",
                                             "^com\\.parallels\\.desktop$",
                                             "^com\\.parallels\\.vm$",
-                                            "^com\\.runningwithcrayons\\.Alfred-3$",
+                                            "^com\\.runningwithcrayons\\.Alfred\\-3$",
                                             "^com\\.parallels\\.desktop\\.console$",
                                             "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
                                             "^com\\.vmware\\.proxyApp\\.",
