@@ -8,8 +8,10 @@
         {
             "complex_modifications": {
                 "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 500,
-                    "basic.to_if_alone_timeout_milliseconds": 1000
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": []
             },
@@ -172,8 +174,10 @@
         {
             "complex_modifications": {
                 "parameters": {
+                    "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 500,
-                    "basic.to_if_alone_timeout_milliseconds": 1000
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": [
                     {
@@ -1192,14 +1196,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_enter"
-                            },
-                            "to": {
-                                "pointing_button": "button1"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "keypad_1"
                             },
                             "to": {
@@ -1260,6 +1256,14 @@
                             },
                             "to": {
                                 "key_code": "page_up"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "keypad_enter"
+                            },
+                            "to": {
+                                "pointing_button": "button1"
                             }
                         },
                         {
@@ -1349,6 +1353,36 @@
                             },
                             "to": {
                                 "pointing_button": "button1"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 8242,
+                        "vendor_id": 1455
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "delete_forward"
+                            },
+                            "to": {
+                                "key_code": "escape"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "escape"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
                             }
                         }
                     ]
