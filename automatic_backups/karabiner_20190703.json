@@ -156,9 +156,6 @@
                 }
             ],
             "name": "Do the difficult thing",
-            "parameters": {
-                "delay_milliseconds_before_open_device": 1000
-            },
             "selected": false,
             "simple_modifications": [
                 {
@@ -1437,76 +1434,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 2072,
-                        "vendor_id": 1204
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": false,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "down_arrow"
-                            },
-                            "to": {
-                                "key_code": "return_or_enter"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_2"
-                            },
-                            "to": {
-                                "key_code": "up_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_period"
-                            },
-                            "to": {
-                                "key_code": "delete_or_backspace"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "right_arrow"
-                            },
-                            "to": {
-                                "key_code": "down_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "up_arrow"
-                            },
-                            "to": {
-                                "key_code": "right_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "y"
-                            },
-                            "to": {
-                                "key_code": "p"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "t"
-                            },
-                            "to": {
-                                "key_code": "x"
-                            }
-                        }
-                    ]
                 }
             ],
             "fn_function_keys": [
@@ -1539,7 +1466,7 @@
                         "key_code": "f4"
                     },
                     "to": {
-                        "key_code": "f4"
+                        "key_code": "launchpad"
                     }
                 },
                 {
@@ -1547,7 +1474,7 @@
                         "key_code": "f5"
                     },
                     "to": {
-                        "key_code": "f20"
+                        "key_code": "f5"
                     }
                 },
                 {
@@ -1608,9 +1535,6 @@
                 }
             ],
             "name": "Cooler Master",
-            "parameters": {
-                "delay_milliseconds_before_open_device": 1000
-            },
             "selected": true,
             "simple_modifications": [
                 {

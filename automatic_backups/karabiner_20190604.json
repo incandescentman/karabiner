@@ -2,7 +2,7 @@
     "global": {
         "check_for_updates_on_startup": true,
         "show_in_menu_bar": true,
-        "show_profile_name_in_menu_bar": false
+        "show_profile_name_in_menu_bar": true
     },
     "profiles": [
         {
@@ -11,8 +11,7 @@
                     "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 500,
                     "basic.to_if_alone_timeout_milliseconds": 1000,
-                    "basic.to_if_held_down_threshold_milliseconds": 500,
-                    "mouse_motion_to_scroll.speed": 100
+                    "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": []
             },
@@ -156,9 +155,6 @@
                 }
             ],
             "name": "Do the difficult thing",
-            "parameters": {
-                "delay_milliseconds_before_open_device": 1000
-            },
             "selected": false,
             "simple_modifications": [
                 {
@@ -173,8 +169,7 @@
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi",
-                "mouse_key_xy_scale": 100
+                "keyboard_type": "ansi"
             }
         },
         {
@@ -183,8 +178,7 @@
                     "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 500,
                     "basic.to_if_alone_timeout_milliseconds": 1000,
-                    "basic.to_if_held_down_threshold_milliseconds": 500,
-                    "mouse_motion_to_scroll.speed": 100
+                    "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": [
                     {
@@ -1415,98 +1409,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": false,
-                        "is_pointing_device": true,
-                        "product_id": 405,
-                        "vendor_id": 6780
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": false,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "pointing_button": "button3"
-                            },
-                            "to": {
-                                "pointing_button": "button2"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 2072,
-                        "vendor_id": 1204
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": false,
-                    "simple_modifications": [
-                        {
-                            "from": {
-                                "key_code": "down_arrow"
-                            },
-                            "to": {
-                                "key_code": "return_or_enter"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_2"
-                            },
-                            "to": {
-                                "key_code": "up_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_period"
-                            },
-                            "to": {
-                                "key_code": "delete_or_backspace"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "right_arrow"
-                            },
-                            "to": {
-                                "key_code": "down_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "up_arrow"
-                            },
-                            "to": {
-                                "key_code": "right_arrow"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "y"
-                            },
-                            "to": {
-                                "key_code": "p"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "t"
-                            },
-                            "to": {
-                                "key_code": "x"
-                            }
-                        }
-                    ]
                 }
             ],
             "fn_function_keys": [
@@ -1539,7 +1441,7 @@
                         "key_code": "f4"
                     },
                     "to": {
-                        "key_code": "f4"
+                        "key_code": "launchpad"
                     }
                 },
                 {
@@ -1547,7 +1449,7 @@
                         "key_code": "f5"
                     },
                     "to": {
-                        "key_code": "f20"
+                        "key_code": "f5"
                     }
                 },
                 {
@@ -1608,9 +1510,6 @@
                 }
             ],
             "name": "Cooler Master",
-            "parameters": {
-                "delay_milliseconds_before_open_device": 1000
-            },
             "selected": true,
             "simple_modifications": [
                 {
@@ -1641,8 +1540,7 @@
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
-                "keyboard_type": "ansi",
-                "mouse_key_xy_scale": 100
+                "keyboard_type": "ansi"
             }
         }
     ]
