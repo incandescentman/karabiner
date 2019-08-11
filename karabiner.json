@@ -1410,6 +1410,84 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "F13 to Cut",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f13"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "F14 to Copy",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f14"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "F15 to Paste",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f14"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "F16 to Paste and Match Style",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f16"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": [
+                                            "option",
+                                            "shift",
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -2024,7 +2102,7 @@
                                 "key_code": "t"
                             },
                             "to": {
-                                "key_code": "f17"
+                                "key_code": "f13"
                             }
                         },
                         {
@@ -2032,7 +2110,7 @@
                                 "key_code": "u"
                             },
                             "to": {
-                                "key_code": "f18"
+                                "key_code": "f14"
                             }
                         },
                         {
