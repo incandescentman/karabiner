@@ -1454,7 +1454,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "f14"
+                                    "key_code": "f15"
                                 },
                                 "to": [
                                     {
@@ -2075,10 +2075,26 @@
                         },
                         {
                             "from": {
+                                "key_code": "keypad_1"
+                            },
+                            "to": {
+                                "key_code": "comma"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "keypad_2"
                             },
                             "to": {
                                 "key_code": "up_arrow"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "keypad_3"
+                            },
+                            "to": {
+                                "key_code": "period"
                             }
                         },
                         {
@@ -2126,7 +2142,7 @@
                                 "key_code": "v"
                             },
                             "to": {
-                                "key_code": "f19"
+                                "key_code": "f15"
                             }
                         },
                         {
@@ -2135,22 +2151,6 @@
                             },
                             "to": {
                                 "key_code": "p"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_1"
-                            },
-                            "to": {
-                                "key_code": "comma"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "keypad_3"
-                            },
-                            "to": {
-                                "key_code": "period"
                             }
                         }
                     ]
