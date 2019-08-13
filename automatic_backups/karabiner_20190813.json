@@ -2018,14 +2018,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "down_arrow"
-                            },
-                            "to": {
-                                "key_code": "down_arrow"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "escape"
                             },
                             "to": {
@@ -2074,10 +2066,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_control"
+                                "key_code": "down_arrow"
                             },
                             "to": {
-                                "key_code": "right_option"
+                                "key_code": "down_arrow"
                             }
                         }
                     ]
