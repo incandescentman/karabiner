@@ -1411,25 +1411,25 @@
                             }
                         ]
                     },
-		    {
-			"description": "F13 to Cut",
-			"manipulators": [
-			    {
-				"from": {
-				    "key_code": "f13"
-				},
-				"to": [
-				    {
-					"key_code": "x",
-					"modifiers": [
-					    "command"
-					]
-				    }
-				],
-				"type": "basic"
-			    }
-			]
-		    },
+                    {
+                        "description": "F13 to Cut",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f13"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "F14 to Copy",
                         "manipulators": [

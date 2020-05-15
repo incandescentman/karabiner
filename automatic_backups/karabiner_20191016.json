@@ -1411,25 +1411,25 @@
                             }
                         ]
                     },
-		    {
-			"description": "F13 to Cut",
-			"manipulators": [
-			    {
-				"from": {
-				    "key_code": "f13"
-				},
-				"to": [
-				    {
-					"key_code": "x",
-					"modifiers": [
-					    "command"
-					]
-				    }
-				],
-				"type": "basic"
-			    }
-			]
-		    },
+                    {
+                        "description": "F13 to Cut",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f13"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": [
+                                            "command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
                     {
                         "description": "F14 to Copy",
                         "manipulators": [
@@ -1692,6 +1692,14 @@
                             },
                             "to": {
                                 "pointing_button": "button1"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
                             }
                         },
                         {
@@ -2211,14 +2219,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "w"
-                            },
-                            "to": {
-                                "key_code": "u"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "y"
                             },
                             "to": {
@@ -2234,28 +2234,6 @@
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 569,
-                        "vendor_id": 1452
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "simple_modifications": []
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [
-                        {
-                            "from": {
-                                "key_code": "f5"
-                            },
-                            "to": {
-                                "key_code": "f20"
-                            }
-                        }
-                    ],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 636,
                         "vendor_id": 1452
                     },
                     "ignore": false,
@@ -2317,7 +2295,7 @@
                         "key_code": "f7"
                     },
                     "to": {
-                        "key_code": "f7"
+                        "key_code": "play_or_pause"
                     }
                 },
                 {
