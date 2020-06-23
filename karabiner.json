@@ -2062,6 +2062,14 @@
                             "to": {
                                 "key_code": "down_arrow"
                             }
+                        },
+                        {
+                            "from": {
+                                "key_code": "close_bracket"
+                            },
+                            "to": {
+                                "pointing_button": "button1"
+                            }
                         }
                     ]
                 },
