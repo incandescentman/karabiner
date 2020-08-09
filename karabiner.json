@@ -1985,6 +1985,14 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "close_bracket"
+                            },
+                            "to": {
+                                "key_code": "close_bracket"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "delete_forward"
                             },
                             "to": {
@@ -1996,7 +2004,7 @@
                                 "key_code": "down_arrow"
                             },
                             "to": {
-                                "key_code": "right_arrow"
+                                "key_code": "down_arrow"
                             }
                         },
                         {
@@ -2033,10 +2041,18 @@
                         },
                         {
                             "from": {
+                                "key_code": "open_bracket"
+                            },
+                            "to": {
+                                "key_code": "open_bracket"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "right_arrow"
                             },
                             "to": {
-                                "key_code": "up_arrow"
+                                "key_code": "slash"
                             }
                         },
                         {
@@ -2060,15 +2076,31 @@
                                 "key_code": "up_arrow"
                             },
                             "to": {
-                                "key_code": "down_arrow"
+                                "key_code": "right_arrow"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "close_bracket"
+                                "key_code": "comma"
                             },
                             "to": {
-                                "pointing_button": "button1"
+                                "key_code": "up_arrow"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "period"
+                            },
+                            "to": {
+                                "key_code": "comma"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "slash"
+                            },
+                            "to": {
+                                "key_code": "period"
                             }
                         }
                     ]
