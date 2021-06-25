@@ -1988,7 +1988,7 @@
                                 "key_code": "close_bracket"
                             },
                             "to": {
-                                "key_code": "right_arrow"
+                                "key_code": "close_bracket"
                             }
                         },
                         {
@@ -2025,10 +2025,18 @@
                         },
                         {
                             "from": {
+                                "key_code": "keypad_enter"
+                            },
+                            "to": {
+                                "key_code": "return_or_enter"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "left_arrow"
                             },
                             "to": {
-                                "key_code": "up_arrow"
+                                "key_code": "left_arrow"
                             }
                         },
                         {
@@ -2036,7 +2044,7 @@
                                 "key_code": "open_bracket"
                             },
                             "to": {
-                                "key_code": "left_arrow"
+                                "key_code": "open_bracket"
                             }
                         },
                         {
@@ -2044,7 +2052,15 @@
                                 "key_code": "right_arrow"
                             },
                             "to": {
-                                "key_code": "close_bracket"
+                                "key_code": "slash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_command"
+                            },
+                            "to": {
+                                "key_code": "b"
                             }
                         },
                         {
@@ -2060,15 +2076,31 @@
                                 "key_code": "up_arrow"
                             },
                             "to": {
-                                "key_code": "open_bracket"
+                                "key_code": "right_arrow"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "right_command"
+                                "key_code": "comma"
                             },
                             "to": {
-                                "key_code": "b"
+                                "key_code": "up_arrow"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "period"
+                            },
+                            "to": {
+                                "key_code": "comma"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "slash"
+                            },
+                            "to": {
+                                "key_code": "period"
                             }
                         }
                     ]
@@ -2187,6 +2219,14 @@
                         },
                         {
                             "from": {
+                                "key_code": "o"
+                            },
+                            "to": {
+                                "key_code": "spacebar"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "right_arrow"
                             },
                             "to": {
@@ -2227,6 +2267,14 @@
                         },
                         {
                             "from": {
+                                "key_code": "w"
+                            },
+                            "to": {
+                                "key_code": "u"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "y"
                             },
                             "to": {
@@ -2242,6 +2290,28 @@
                         "is_keyboard": true,
                         "is_pointing_device": false,
                         "product_id": 569,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [
+                        {
+                            "from": {
+                                "key_code": "f5"
+                            },
+                            "to": {
+                                "key_code": "f20"
+                            }
+                        }
+                    ],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 636,
                         "vendor_id": 1452
                     },
                     "ignore": false,
@@ -2303,7 +2373,7 @@
                         "key_code": "f7"
                     },
                     "to": {
-                        "key_code": "play_or_pause"
+                        "key_code": "f7"
                     }
                 },
                 {
