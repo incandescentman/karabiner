@@ -1663,26 +1663,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "end"
-                            },
-                            "to": [
-                                {
-                                    "pointing_button": "button2"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "home"
-                            },
-                            "to": [
-                                {
-                                    "pointing_button": "button1"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "comma"
                             },
                             "to": [
@@ -1703,6 +1683,36 @@
                         },
                         {
                             "from": {
+                                "key_code": "end"
+                            },
+                            "to": [
+                                {
+                                    "pointing_button": "button1"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "home"
+                            },
+                            "to": [
+                                {
+                                    "pointing_button": "button2"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "period"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "comma"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "right_arrow"
                             },
                             "to": [
@@ -1718,16 +1728,6 @@
                             "to": [
                                 {
                                     "key_code": "period"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "period"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "comma"
                                 }
                             ]
                         },
