@@ -55,6 +55,19 @@
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
                     "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 7,
+                        "vendor_id": 1523
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -1437,84 +1450,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "F13 to Cut",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f13"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "x",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F14 to Copy",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f14"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "c",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F15 to Paste",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f15"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "v",
-                                        "modifiers": [
-                                            "command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "F16 to Paste and Match Style",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f16"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "v",
-                                        "modifiers": [
-                                            "option",
-                                            "shift",
-                                            "command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
@@ -2563,6 +2498,19 @@
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 835,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -2582,7 +2530,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "display_brightness_increment"
+                            "consumer_key_code": "display_brightness_decrement"
                         }
                     ]
                 },
@@ -2592,7 +2540,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "f3"
+                            "consumer_key_code": "display_brightness_increment"
                         }
                     ]
                 },
