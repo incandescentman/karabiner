@@ -2352,7 +2352,7 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "home"
+                                "key_code": "right_control"
                             },
                             "to": [
                                 {
