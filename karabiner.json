@@ -2378,6 +2378,36 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "non_us_backslash"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_option"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "pause"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "f15"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "print_screen"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "f13"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "right_control"
                             },
                             "to": [
@@ -2388,11 +2418,11 @@
                         },
                         {
                             "from": {
-                                "key_code": "non_us_backslash"
+                                "key_code": "scroll_lock"
                             },
                             "to": [
                                 {
-                                    "key_code": "right_option"
+                                    "key_code": "f14"
                                 }
                             ]
                         }
@@ -2820,26 +2850,6 @@
                     "to": [
                         {
                             "key_code": "left_control"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "pause"
-                    },
-                    "to": [
-                        {
-                            "pointing_button": "button2"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "scroll_lock"
-                    },
-                    "to": [
-                        {
-                            "pointing_button": "button1"
                         }
                     ]
                 }
