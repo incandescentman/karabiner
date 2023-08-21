@@ -1526,6 +1526,32 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Right Option Key → Hyper Key (⌃⌥⇧⌘)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "right_option",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -2357,6 +2383,16 @@
                             "to": [
                                 {
                                     "pointing_button": "button1"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "non_us_backslash"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_option"
                                 }
                             ]
                         }
