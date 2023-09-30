@@ -2754,6 +2754,28 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "Command_R + Shift_R to Command +Tab",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "command"
+                                        ]
+                                    }
+                                },
+                                "to": {
+                                    "key_code": "d",
+                                    "modifiers": [
+                                        "command"
+                                    ]
+                                },
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
