@@ -2732,50 +2732,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "Command_R + Shift_R to Command +Tab",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command"
-                                        ]
-                                    }
-                                },
-                                "to": {
-                                    "key_code": "tab",
-                                    "modifiers": [
-                                        "command"
-                                    ]
-                                },
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Command_R + Shift_R to Command +Tab",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "tab",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "command"
-                                        ]
-                                    }
-                                },
-                                "to": {
-                                    "key_code": "d",
-                                    "modifiers": [
-                                        "command"
-                                    ]
-                                },
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
@@ -2967,16 +2923,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "non_us_backslash"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_option"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "period"
                             },
                             "to": [
@@ -3012,6 +2958,16 @@
                             "to": [
                                 {
                                     "key_code": "slash"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
+                                "key_code": "non_us_backslash"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_option"
                                 }
                             ]
                         }
