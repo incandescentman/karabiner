@@ -2923,6 +2923,16 @@
                         },
                         {
                             "from": {
+                                "key_code": "non_us_backslash"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_option"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "period"
                             },
                             "to": [
@@ -2963,11 +2973,11 @@
                         },
                         {
                             "from": {
-                                "key_code": "non_us_backslash"
+                                "key_code": "equal_sign"
                             },
                             "to": [
                                 {
-                                    "key_code": "right_option"
+                                    "key_code": "hyphen"
                                 }
                             ]
                         }
@@ -3898,6 +3908,20 @@
                         "is_pointing_device": true,
                         "product_id": 16642,
                         "vendor_id": 1578
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [],
+                    "treat_as_built_in_keyboard": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 45088,
+                        "vendor_id": 1133
                     },
                     "ignore": true,
                     "manipulate_caps_lock_led": false,
