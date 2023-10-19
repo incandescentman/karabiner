@@ -1527,24 +1527,26 @@
                             }
                         ]
                     },
+
+
+
                     {
-                        "description": "Right Option Key → Hyper Key (⌃⌥⇧⌘)",
+                        "description": "command D to command-option-9",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "right_option",
+                                    "key_code": "d",
                                     "modifiers": {
-                                        "optional": [
-                                            "any"
+                                        "mandatory": [
+                                            "command"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_shift",
+                                        "key_code": "9",
                                         "modifiers": [
                                             "left_command",
-                                            "left_control",
                                             "left_option"
                                         ]
                                     }
@@ -2608,19 +2610,6 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "mandatory": ["left_command"]
-                                    }
-                                },
-                                "to": {
-                                    "key_code": "9",
-                                    "modifiers": ["left_command", "left_option"]
-                                },
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
                                     "key_code": "n",
                                     "modifiers": {
                                         "mandatory": [
@@ -2739,6 +2728,32 @@
                                             "left_option",
                                             "left_control",
                                             "left_command"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Right Option Key → Hyper Key (⌃⌥⇧⌘)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "right_option",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control",
+                                            "left_option"
                                         ]
                                     }
                                 ],
@@ -2926,6 +2941,16 @@
                         },
                         {
                             "from": {
+                                "key_code": "equal_sign"
+                            },
+                            "to": [
+                                {
+                                    "key_code": "hyphen"
+                                }
+                            ]
+                        },
+                        {
+                            "from": {
                                 "key_code": "home"
                             },
                             "to": [
@@ -2981,16 +3006,6 @@
                             "to": [
                                 {
                                     "key_code": "slash"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
-                                "key_code": "equal_sign"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "hyphen"
                                 }
                             ]
                         }
